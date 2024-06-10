@@ -8,6 +8,9 @@ import os
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+nltk.download('punkt')
+nltk.download('stopwords')
+
 # Function to preprocess text
 def preprocess_text(text, stopwords_list):
     text = text.lower()
