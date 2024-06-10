@@ -48,7 +48,7 @@ def preprocess_pdf_text(cv_text, vectorizer, stopwords_list):
         return None
 
 # Load TfidfVectorizer
-with open('D:/cv_analysis/tfidf_vectorizer.pkl', 'rb') as file:
+with open('tfidf_vectorizer.pkl', 'rb') as file:
     vectorizer = pickle.load(file)
 
 # Load model
