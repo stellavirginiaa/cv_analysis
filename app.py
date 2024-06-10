@@ -52,7 +52,7 @@ with open('tfidf_vectorizer.pkl', 'rb') as file:
     vectorizer = pickle.load(file)
 
 # Load model
-model_path = 'D:/cv_analysis/logistic_regression_model.joblib'
+model_path = 'logistic_regression_model.joblib'
 model = joblib.load(model_path)
 
 # Load stopwords
